@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Drillers Schools</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="log">
+                <img src="WhatsApp Image 2024-07-25 at 18.01.50_6a9dfe42.jpg" alt="Brin Driller Logo">
+            </div>
+            <div class="title">Bra<span>in Dri</span>llers</div>
+
+            <ul>
+                <li><a href="#">H<span>om</span>e</a></li> <br>
+                <li><a href="#">Ne<span>ws & Eve</span>nts</a></li>
+                <li><a href="#">Abo<span>ut our Sch</span>ool</a></li>
+                <li><a href="#">Co<span>ntact</span> Us</a></li>
+            </ul>
+            <div id="utc-time" class="time">Time</div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="welcome-animation">
+                <h1>Welco<span>me! TO BRAIN DRILLERS SC</span>HOOLS</h1>
+            </div>
+            <br><br><br>
+            <br>
+
+        </div>
+        <div class="love">
+            <div class="grduation">
+                <img src="graduation-cap-transparent-6.png" alt="">
+                </div>
+                <div class="writting">
+                    <h3>Warmest congratulations to Your dear students on their graduation day! You must be proud of each and every one of them. Let them Keep shining bright!</h3>
+                </div>
+                
+        </div>
+        <div class="progress">
+            <h1>Site <span>Under construc</span>tion</h1>
+            <p>Men at work! Work in Progress!!!</p>
+        </div>
+    </main>
+    <script>
+        function updateUTCTime() {
+            const now = new Date();
+            const utcString = now.toISOString().slice(11, 19); // Extracts HH:MM:SS from UTC string
+            document.getElementById('utc-time').textContent = utcString;
+        }
+        updateUTCTime();
+        setInterval(updateUTCTime, 1000);
+    </script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
