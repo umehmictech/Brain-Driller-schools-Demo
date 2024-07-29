@@ -35,8 +35,8 @@ header nav .log img {
     width: 120%;
 }
 
-header nav .title {
-    color: white font-weight: bold;
+header nav .title { 
+    font-weight: bold;
     font-size: 2rem;
 }
 
@@ -97,16 +97,16 @@ header nav .hamburger span:hover {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center; */
-    width: 100%;
-    height: 100vh;
+    width: 99%;
+    height: 100%;
     background-color: rgb(116, 10, 10);
     justify-content: center;
     align-items: center;
-
+    margin: 0 auto;
 } 
 
 main .hero .welcome-animation {
-    background-color: blueviolet;
+    background-color: white;
     /* position: relative; */
     overflow: hidden;
     width: 100%;
@@ -139,6 +139,7 @@ main .hero .welcome-animation {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0 auto;
  }
  main .love .writting{
     width: 48%;
@@ -169,6 +170,17 @@ main .hero .welcome-animation {
     }
   }
   @media screen and (max-width: 934px ){
+    header nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    header nav .log{
+        width: 17%;
+        height: 17%;
+    }
+    header nav .title{
+        font-size: 1rem;
+    }
     header nav ul{
 width: 100%;
         display: none;
@@ -179,6 +191,9 @@ width: 100%;
     main .grduation img{
         width: 100%;
     }
+    main .love{
+        width: 100%;
+    }
   }
-    
+  
   
